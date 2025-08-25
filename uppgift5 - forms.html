@@ -27,6 +27,65 @@ Se till att när man klickar på submit-knappen i formuläret så ska tack.html 
 </head>
 
 <body>
+<form action="tack.html">
+    <fieldset>
+        <legend>Contact Information</legend>
+        
+            <label for="name">Name:</label>
+            <input type="text" id="name" value="Name Nameson"><br>
+        
+            <label for="email">Email:</label>
+            <input type="text" id="email"><br>
+        
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone"><br>
+
+            <br>
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="gardevoir" value="gardevoir">
+            <label for="gardevoir">Gardevoir</label>
+            <input type="radio" name="gender" id="vaporeon" value="vaporeon">
+            <label for="vaporeon">Vaporeon</label>
+            <input type="radio" name="gender" id="machoke" value="machoke">
+            <label for="machoke">Machoke</label>
+        
+    </fieldset>
+    
+    <br>
+
+    <fieldset>
+        <legend>Skills</legend>
+
+        <label>Known Languages:</label><br>
+
+        <input type="checkbox" id="cpp" name="languages" value="cpp">
+        <label for="cpp">C++</label><br>
+
+        <input type="checkbox" id="java" name="languages" value="java">
+        <label for="java">Java</label><br>
+
+        <input type="checkbox" id="python" name="languages" value="python">
+        <label for="python">Python</label><br>
+
+
+        <br>
+        
+        <label for="education">Education:</label>
+        <select id="education">
+            <option id="full">Full</option>
+            <option id="partial">Partial</option>
+            <option id="none">none</option>
+        </select>
+    </fieldset>
+
+    <input type="submit" value="Submit">
+</form>
+
 
 </body>
 
