@@ -1,0 +1,69 @@
+<!--
+Slutuppgift: Receptsida
+Skapa en receptsida med HTML där du använder de olika HTML-elementen du lärt dig under modul 1. 
+
+Du ska skapa en receptsida med minst 3 recept + startsida
+
+Startsidan ska innehålla:
+    - En header med titeln “Receptsida”
+    - En kort introduktion om vad sidan handlar om
+    - En oordnad lista med länkar till de olika recepten
+    - En bild som representerar matlagning eller recept
+    
+Varje recept-sida ska innehålla följande delar:
+    - Högst upp ska det finnas en länk till “receptsida.html” som det står “Tillbaka hem” på.
+    - En header med receptets namn
+    - En kort paragraf om vad detta recept är för något och varför det är gott
+    - En bild på maträtten 
+    - En oordnad lista över ingredienserna som receptet innehåller
+    - En ordnad lista som steg för steg förklarar receptet
+    - En tabell med varje ingrediens och hur många kalorier det innehåller
+    - Ett formulär där personer som läser receptet kan ge kommentarer (Ska ej fungera, bara formuläret ska finnas)
+    - Använd div och span där det behövs (Minst 1 gång ska det finnas)
+    - Tydliga kommentarer som förklarar varje sektion (“T.ex. en oordnad lista över alla ingredienser”)
+    
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<body>
+    <h1>Recipes</h1>
+    
+    <br>
+    
+    <p>
+        Welcome! This website will hopefully provide some useful recipes for you. These recipes I have compiled from various sources, so if you find any errors or have any suggestions, please let me know.
+    </p>
+
+    <br>
+    
+    <!--Fieldset cause it looks nice!-->
+    <fieldset>
+        <legend>Introduction</legend>
+        <p>Okey-dokey, bork bork bork! I-a am-a da Swedish Chefy, born-a in-a da-a land-a of-a meatballs and-a herringy-swish, where-a da sun sometimes-a go peeky-peeky and-a da snow go plop-plop-a-doodle. I-a spend-a my-a days-a chop-chopping, stir-stirring, and-a singy-singy borky-bork songs in-a da kitchen, sometimes-a dancey-dance with-a da rolling pinny, bork bork! I-a love-a da flibber-flabber, da splishy-splashy, and-a da yum-yum-a-goo, and-a I-a dream-a of-a da great-a spaghetti mountain with-a da gravy river, ya, bork bork bork!</p>
+        <br>
+        <p>Okey-dokey, bork bork bork! Welcome-a to-a my-a flibber-flabber cookbooky-doo, where-a the schnitzel meets-a the flap-flop and-a the meatball go plop-a-doodle in-a da pan! You gonna-a stir-a da thingy-wings, chop-a da chop-chops, and maybe-a a little splashy-splooch of-a da secrety-sauce, bork bork bork! Recipes go whee-whee-woosh, flip-flap flop, and-a sometimes-a kablooey, but-a dat is-a da fun fun fun, ya? So grab-a da forky-fork and-a dance-a da dumpling jig while-a we make-a da yum-yum-a-goo in-a da kitcheny-bitcheny!</p>
+        <br>
+        <img src="src/meetTheChef.jpg" alt="The Chef">
+    </fieldset>
+    
+    <fieldset>
+        <legend>Recipes</legend>
+        <!--Ordered list of the recipes, href -> "recipe" dot html-->
+        <ol>
+            <li><a href="r1_eggSoup.html">5-Minute Egg Soup</a></li>
+            <li><a href="src/recipe2.html">Recipe 2</a></li>
+            <li><a href="src/recipe3.html">Recipe 3</a></li>    
+        </ol>
+        <br>
+        <img src="src/theChefCooking.jpg" alt="The chef in his field.">
+    </fieldset>
+</body>
+
+</html>
+
+
